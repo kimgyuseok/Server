@@ -1,0 +1,67 @@
+<%@page import="com.test.jdbc.DBUtil"%>
+<%@page import="java.sql.ResultSet"%>
+<%@page import="java.sql.Connection"%>
+<%@page import="java.sql.Statement"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
+<%
+	//1. 데이터 가져오기(id, pw)
+	//2. DB 작업 > select
+	//3. 결과
+	// a. 성공
+	// b. 실패
+	
+	String id = request.getParameter("id");
+	String pw = request.getParameter("pw");
+	
+	boolean result;
+	Connection conn = null;
+	Statement stat = null;
+	ResultSet rs = null;
+	
+	conn = DBUtil.open();
+	
+	String sql = String.format("select * from tblUser");
+
+	rs = stat.executeQuery(sql);
+	
+	if(rs.next()){
+		result = true;	
+		
+		session.setAttribute("id",id);
+	}else{
+		result = false;			
+	}
+	
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<%@ include file="/inc/asset.jsp" %>
+<style>
+
+</style>
+</head>
+<body>
+
+	<!--ex06_response_one.jsp-->
+	
+	<div class="container">
+		<h1 class="page-header"><small></small></h1>
+		<%=result %>
+	</div>
+<script>
+	
+	<% if(result){%>
+		location.href='index.jsp';
+	<%}else{%>
+		alert('실패;;');
+		history.back();
+	<%}%>
+	
+</script>
+</body>
+</html>

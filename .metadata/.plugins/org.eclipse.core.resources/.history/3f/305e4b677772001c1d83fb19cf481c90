@@ -1,0 +1,33 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
+<%
+	//1. 데이터 가져오기(id, pw)
+	//2. DB 작업 > select
+	//3. 결과
+	// a. 성공
+	// b. 실패
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<%@ include file="/inc/asset.jsp" %>
+<style>
+
+</style>
+</head>
+<body>
+
+	<!--ex06_response_one.jsp-->
+	
+	<div class="container">
+		<h1 class="page-header"><small></small></h1>
+	
+	</div>
+<script>
+
+</script>
+</body>
+</html>

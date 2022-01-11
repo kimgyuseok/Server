@@ -51,7 +51,7 @@ select * from tblAddress;
 commit;
 
 
-
+select * from tblAddress order by seq desc;
 
 
 

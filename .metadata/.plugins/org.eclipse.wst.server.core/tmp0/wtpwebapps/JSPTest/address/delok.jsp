@@ -5,14 +5,12 @@
 <% 
 
 	//1. 데이터 가져오기
-	//2. DB 작업 > insert
+	//2. DB 작업 > delete
 	//3. 피드백
 	
 	//1.
-	
-	
 	String seq = request.getParameter("seq");
-
+	
 	
 	//2.
 	Connection conn = null;
@@ -20,7 +18,7 @@
 	
 	conn = DBUtil.open();
 	
-	String sql = String.format("delete from tblAddress where seq = %s",seq);
+	String sql = String.format("delete from tblAddress where seq = %s", seq);
 	stat = conn.createStatement();
 	
 	int result = stat.executeUpdate(sql);
@@ -58,7 +56,6 @@
 		<% } else { %>		
 		//실패
 		alert('삭제 실패;;');
-		//location.href = '/jsp/address/add.jsp';
 		history.back();
 		<% } %>
 	

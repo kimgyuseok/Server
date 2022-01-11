@@ -55,10 +55,11 @@
 				<td><%= rs.getString("tel") %></td>
 				<td><%= rs.getString("address") %></td>
 				<td>
-					<span class="glyphicon glyphicon-edit" title="수정하기" data-toggle="tooltip"
-								 onclick="location.href='/jsp/address/edit.jsp?seq=<%=rs.getString("seq")%>';"></span>
-					<span class="glyphicon glyphicon-remove-sign" title="삭제하기" data-toggle="tooltip"
-								data-placement="top" onclick="location.href='/jsp/address/del.jsp?seq=<%=rs.getString("seq")%>';"></span>	
+					
+					<span class="glyphicon glyphicon-edit" title="수정하기" data-toggle="tooltip" data-placement="top" onclick="location.href='/jsp/address/edit.jsp?seq=<%= rs.getString("seq") %>';"></span>
+					
+					<span class="glyphicon glyphicon-remove-sign" title="삭제하기" data-toggle="tooltip" data-placement="top" onclick="location.href='/jsp/address/del.jsp?seq=<%= rs.getString("seq") %>';"></span>
+					
 				</td>
 			</tr>
 			<% } %>
@@ -75,7 +76,9 @@
 	</div>
 	
 	<script>
-		$('[data-toggle="tooltip"]').tooltip();	
+		
+		$('[data-toggle="tooltip"]').tooltip();
+		
 	</script>
 </body>
 </html>

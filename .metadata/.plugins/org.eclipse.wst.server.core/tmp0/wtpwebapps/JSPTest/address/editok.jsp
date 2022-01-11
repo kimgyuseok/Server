@@ -23,9 +23,8 @@
 	
 	conn = DBUtil.open();
 	
-	String sql = String.format("update tblAddress set name = '%s', age = %s, tel= '%s', address= '%s' where seq = %s"
-								, name, age, tel, address, seq);
-								
+	String sql = String.format("update tblAddress set name = '%s', age = %s, tel = '%s', address = '%s' where seq = %s"
+											, name, age, tel, address, seq);
 	stat = conn.createStatement();
 	
 	int result = stat.executeUpdate(sql);
@@ -48,7 +47,7 @@
 <body>
 	<!-- template.jsp > addok.jsp > editok.jsp -->
 	<div class="container">
-		<h1 class="page-header">주소록 <small>수정하기</small></h1>
+		<h1 class="page-header">주소록 <small>추가하기</small></h1>
 		
 		
 			
@@ -58,12 +57,11 @@
 	
 		<% if (result == 1) { %>
 		//성공
-		alert('수정 성공');
+		//alert('수정 성공');
 		location.href = '/jsp/address/list.jsp';
 		<% } else { %>		
 		//실패
 		alert('수정 실패;;');
-		//location.href = '/jsp/address/add.jsp';
 		history.back();
 		<% } %>
 	
