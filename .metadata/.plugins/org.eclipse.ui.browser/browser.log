@@ -35,3 +35,11 @@
 1월 11, 2022 15:12:24.825 [2248:20888:0111/151224.825:ERROR:device_event_log_impl.cc(214)] [15:12:24.821] USB: usb_service_win.cc:261 Failed to get device driver name: 요소가 없습니다. (0x490)
 1월 11, 2022 15:12:24.831 [2248:20888:0111/151224.831:ERROR:device_event_log_impl.cc(214)] [15:12:24.826] USB: usb_service_win.cc:284 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)
 1월 11, 2022 16:27:55.564 [2248:20852:0111/162755.564:ERROR:mcs_client.cc(755)] Received close command, resetting connection.
+
+1월 12, 2022 11:21:40.277 NEW SESSION
+1월 12, 2022 11:21:40.277 [20832:3316:0112/112140.276:ERROR:chrome_browser_main_extra_parts_metrics.cc(226)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+1월 12, 2022 11:21:40.295 [20832:3316:0112/112140.276:ERROR:chrome_browser_main_extra_parts_metrics.cc(229)] crbug.com/1216328: Checking Bluetooth availability ended.
+1월 12, 2022 11:21:40.295 [20832:3316:0112/112140.276:ERROR:chrome_browser_main_extra_parts_metrics.cc(232)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+1월 12, 2022 11:21:40.304 [20832:3316:0112/112140.280:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status ended.
+1월 12, 2022 11:21:40.305 [20832:28304:0112/112140.293:ERROR:device_event_log_impl.cc(214)] [11:21:40.293] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+1월 12, 2022 11:41:03.851 [20832:28304:0112/114103.851:ERROR:device_event_log_impl.cc(214)] [11:41:03.849] USB: usb_service_win.cc:261 Failed to get device driver name: 요소가 없습니다. (0x490)
