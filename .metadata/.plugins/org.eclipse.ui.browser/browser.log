@@ -43,3 +43,19 @@
 1월 12, 2022 11:21:40.304 [20832:3316:0112/112140.280:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status ended.
 1월 12, 2022 11:21:40.305 [20832:28304:0112/112140.293:ERROR:device_event_log_impl.cc(214)] [11:21:40.293] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
 1월 12, 2022 11:41:03.851 [20832:28304:0112/114103.851:ERROR:device_event_log_impl.cc(214)] [11:41:03.849] USB: usb_service_win.cc:261 Failed to get device driver name: 요소가 없습니다. (0x490)
+
+1월 13, 2022 09:15:53.461 NEW SESSION
+1월 13, 2022 09:15:53.461 [28572:28316:0113/091553.460:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+1월 13, 2022 09:15:53.477 [28572:28316:0113/091553.460:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+1월 13, 2022 09:15:53.477 [28572:28316:0113/091553.460:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+1월 13, 2022 09:15:53.486 [28572:28316:0113/091553.463:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+1월 13, 2022 09:15:53.486 [28572:28052:0113/091553.479:ERROR:device_event_log_impl.cc(214)] [09:15:53.478] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+1월 13, 2022 09:40:12.728 [28572:28052:0113/094012.727:ERROR:device_event_log_impl.cc(214)] [09:40:12.726] USB: usb_service_win.cc:261 Failed to get device driver name: 요소가 없습니다. (0x490)
+
+1월 13, 2022 10:46:35.188 NEW SESSION
+1월 13, 2022 10:46:35.188 [22264:18160:0113/104635.186:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+1월 13, 2022 10:46:35.192 [22264:18160:0113/104635.186:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+1월 13, 2022 10:46:35.193 [22264:18160:0113/104635.186:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+1월 13, 2022 10:46:35.217 [22264:18160:0113/104635.190:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+1월 13, 2022 10:46:35.218 [22264:26468:0113/104635.207:ERROR:device_event_log_impl.cc(214)] [10:46:35.207] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+1월 13, 2022 10:50:00.320 [0113/105000.318:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\User\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\76046110-5942-49e2-82a8-3595607b0ccf: 지정된 경로를 찾을 수 없습니다. (0x3)
