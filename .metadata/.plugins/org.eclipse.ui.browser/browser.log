@@ -59,3 +59,21 @@
 1월 13, 2022 10:46:35.217 [22264:18160:0113/104635.190:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
 1월 13, 2022 10:46:35.218 [22264:26468:0113/104635.207:ERROR:device_event_log_impl.cc(214)] [10:46:35.207] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
 1월 13, 2022 10:50:00.320 [0113/105000.318:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\User\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\76046110-5942-49e2-82a8-3595607b0ccf: 지정된 경로를 찾을 수 없습니다. (0x3)
+
+1월 14, 2022 09:06:29.956 NEW SESSION
+1월 14, 2022 09:06:29.956 [13648:23572:0114/090629.955:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+1월 14, 2022 09:06:29.974 [13648:23572:0114/090629.955:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+1월 14, 2022 09:06:29.975 [13648:23572:0114/090629.955:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+1월 14, 2022 09:06:29.975 [13648:23572:0114/090629.961:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+1월 14, 2022 09:06:29.989 [13648:12952:0114/090629.971:ERROR:device_event_log_impl.cc(214)] [09:06:29.971] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+
+1월 14, 2022 11:07:39.310 NEW SESSION
+1월 14, 2022 11:07:39.310 [30596:25052:0114/110739.309:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+1월 14, 2022 11:07:39.311 [30596:25052:0114/110739.309:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+1월 14, 2022 11:07:39.311 [30596:25052:0114/110739.309:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+1월 14, 2022 11:07:39.314 [30596:25052:0114/110739.314:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+1월 14, 2022 11:07:39.325 [30596:26584:0114/110739.325:ERROR:device_event_log_impl.cc(214)] [11:07:39.325] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+1월 14, 2022 11:57:58.368 [30596:26584:0114/115758.368:ERROR:device_event_log_impl.cc(214)] [11:57:58.366] USB: usb_service_win.cc:261 Failed to get device driver name: 요소가 없습니다. (0x490)
+1월 14, 2022 12:45:31.824 [30596:16272:0114/124531.824:ERROR:database.cc(1773)] History SQLite error: code 1555 errno 0: UNIQUE constraint failed: context_annotations.visit_id sql: INSERT INTO context_annotations( visit_id,context_annotation_flags,duration_since_last_visit,page_end_reason,total_foreground_duration )VALUES(?,?,?,?,?)
+1월 14, 2022 14:01:56.543 [30596:29680:0114/140156.543:ERROR:database.cc(1773)] History SQLite error: code 1555 errno 0: UNIQUE constraint failed: context_annotations.visit_id sql: INSERT INTO context_annotations( visit_id,context_annotation_flags,duration_since_last_visit,page_end_reason,total_foreground_duration )VALUES(?,?,?,?,?)
+1월 14, 2022 16:36:01.988 [30596:26584:0114/163601.988:ERROR:device_event_log_impl.cc(214)] [16:36:01.988] USB: usb_service_win.cc:261 Failed to get device driver name: 요소가 없습니다. (0x490)

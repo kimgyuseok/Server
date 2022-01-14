@@ -1,8 +1,0 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<h4>조각 페이지</h4>
-
-<p>1. 지역변수: <%= num1 %></p>
-<p>2. pageContext: <%= pageContext.getAttribute(name2)  %></p>
-<p>3. request: <%= request.getAttribute(name2) %></p>
-<p>4. session <%= session.getAttribute(name2) %></p>
